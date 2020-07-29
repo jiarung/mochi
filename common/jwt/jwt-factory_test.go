@@ -6,7 +6,7 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
 )
 
 type JWTFactoryTestSuite struct {

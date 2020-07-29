@@ -6,7 +6,7 @@ import (
 
 	"github.com/DataDog/datadog-go/statsd"
 
-	"github.com/cobinhood/cobinhood-backend/common/utils"
+	"github.com/cobinhood/mochi/common/utils"
 )
 
 // TracerEnabled returns whether or not Tracer is enabled.

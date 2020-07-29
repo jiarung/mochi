@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/database/exchangedb"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/database/exchangedb"
+	"github.com/cobinhood/mochi/infra/app"
+	models "github.com/cobinhood/mochi/models/exchange"
 )
 
 // FilterSuite tests filter

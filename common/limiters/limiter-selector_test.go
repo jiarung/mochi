@@ -8,10 +8,10 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/database/exchangedb"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/database/exchangedb"
+	"github.com/cobinhood/mochi/infra/app"
 )
 
 type simpleLimiterSelectorTestSuite struct {

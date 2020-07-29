@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apiutils "github.com/cobinhood/cobinhood-backend/common/api/utils"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apiutils "github.com/cobinhood/mochi/common/api/utils"
+	"github.com/cobinhood/mochi/common/logging"
 )
 
 // ResponseHandler is the middleware for returning error code.

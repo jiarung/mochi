@@ -10,7 +10,7 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/types"
 )
 
 type AppOnesignalTestSuite struct {

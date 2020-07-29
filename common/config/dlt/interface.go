@@ -1,7 +1,7 @@
 package dlt
 
 import (
-	"github.com/cobinhood/cobinhood-backend/cache"
+	"github.com/cobinhood/mochi/cache"
 )
 
 type endpoint struct {

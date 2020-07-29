@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/cobinhood-backend/common/utils"
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/common/utils"
+	"github.com/cobinhood/mochi/types"
 )
 
 // alias

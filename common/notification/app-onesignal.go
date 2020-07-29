@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/types"
 )
 
 const (

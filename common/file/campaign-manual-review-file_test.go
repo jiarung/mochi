@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/cache"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	scopeauth "github.com/cobinhood/cobinhood-backend/common/scope-auth"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/models/exchange/exchangetest"
-	"github.com/cobinhood/cobinhood-backend/types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/cache"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	"github.com/cobinhood/mochi/common/logging"
+	scopeauth "github.com/cobinhood/mochi/common/scope-auth"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/infra/app"
+	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/models/exchange/exchangetest"
+	"github.com/cobinhood/mochi/types"
 )
 
 type CampaignManualReviewTestSuite struct {

@@ -6,10 +6,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	"github.com/cobinhood/cobinhood-backend/models/exchange"
-	ctime "github.com/cobinhood/cobinhood-backend/time"
-	"github.com/cobinhood/cobinhood-backend/types"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	"github.com/cobinhood/mochi/models/exchange"
+	ctime "github.com/cobinhood/mochi/time"
+	"github.com/cobinhood/mochi/types"
 )
 
 // ErrorKey defines shared key to set error in `gin.Context`, use unusual string

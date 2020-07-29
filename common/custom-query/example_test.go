@@ -3,11 +3,11 @@ package customquery_test
 import (
 	"net/http"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apiutils "github.com/cobinhood/cobinhood-backend/common/api/utils"
-	"github.com/cobinhood/cobinhood-backend/common/custom-query"
-	"github.com/cobinhood/cobinhood-backend/database"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apiutils "github.com/cobinhood/mochi/common/api/utils"
+	"github.com/cobinhood/mochi/common/custom-query"
+	"github.com/cobinhood/mochi/database"
+	models "github.com/cobinhood/mochi/models/exchange"
 	"github.com/gin-gonic/gin"
 )
 

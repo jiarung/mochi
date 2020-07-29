@@ -1,9 +1,9 @@
 package file
 
 import (
-	"github.com/cobinhood/cobinhood-backend/common/aes"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	"github.com/cobinhood/cobinhood-backend/common/api/middleware"
+	"github.com/cobinhood/mochi/common/aes"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	"github.com/cobinhood/mochi/common/api/middleware"
 )
 
 // UploadDisableTwoFAFileHandler returns the disable 2FA ephemeral file upload

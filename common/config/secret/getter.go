@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
-	"github.com/cobinhood/cobinhood-backend/common/utils"
+	"github.com/cobinhood/mochi/common/config/misc"
+	"github.com/cobinhood/mochi/common/utils"
 )
 
 // Getter defines the secret getter func.

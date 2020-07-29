@@ -7,12 +7,12 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	"github.com/cobinhood/cobinhood-backend/common/limiters"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	"github.com/cobinhood/cobinhood-backend/common/utils"
-	apiutils "github.com/cobinhood/cobinhood-backend/infra/api/utils"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	"github.com/cobinhood/mochi/common/limiters"
+	"github.com/cobinhood/mochi/common/logging"
+	"github.com/cobinhood/mochi/common/utils"
+	apiutils "github.com/cobinhood/mochi/infra/api/utils"
 )
 
 func isLimitReachedAndSetHeader(ctx *apicontext.AppContext,

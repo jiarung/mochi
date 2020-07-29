@@ -7,7 +7,7 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/shopspring/decimal"
 
-	"github.com/cobinhood/cobinhood-backend/common/ref"
+	"github.com/cobinhood/mochi/common/ref"
 )
 
 func ExamplePlainText() {

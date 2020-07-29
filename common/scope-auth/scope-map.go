@@ -2,7 +2,7 @@
 
 package scopeauth
 
-import "github.com/cobinhood/cobinhood-backend/types"
+import "github.com/cobinhood/mochi/types"
 
 var scopeMap = map[string]map[string]map[string][]types.Scope{
 

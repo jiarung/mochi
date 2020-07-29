@@ -8,12 +8,12 @@ import (
 	"github.com/cobinhood/gorm"
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	cachehelper "github.com/cobinhood/cobinhood-backend/cache/helper"
-	"github.com/cobinhood/cobinhood-backend/cache/keys"
-	"github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/models/exchange/helper"
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/cache"
+	cachehelper "github.com/cobinhood/mochi/cache/helper"
+	"github.com/cobinhood/mochi/cache/keys"
+	"github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/models/exchange/helper"
+	"github.com/cobinhood/mochi/types"
 )
 
 // ReviewMotionRequest is the request of vote action.

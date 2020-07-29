@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"cloud.google.com/go/logging"
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
+	"github.com/cobinhood/mochi/common/config/misc"
 )
 
 type stackdriverOutput struct {

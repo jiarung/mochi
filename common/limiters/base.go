@@ -5,8 +5,8 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/common/logging"
 )
 
 var logger = logging.NewLoggerTag("api-limiter")

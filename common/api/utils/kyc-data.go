@@ -9,9 +9,9 @@ import (
 	"github.com/cobinhood/gorm"
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/cache/keys"
-	"github.com/cobinhood/cobinhood-backend/models/exchange"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/cache/keys"
+	"github.com/cobinhood/mochi/models/exchange"
 )
 
 // Define cache expiration time.

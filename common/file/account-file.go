@@ -1,8 +1,8 @@
 package file
 
 import (
-	"github.com/cobinhood/cobinhood-backend/common/aes"
-	"github.com/cobinhood/cobinhood-backend/common/api/middleware"
+	"github.com/cobinhood/mochi/common/aes"
+	"github.com/cobinhood/mochi/common/api/middleware"
 )
 
 // UploadAccountFileHandler returns the account ephemeral file upload handler.

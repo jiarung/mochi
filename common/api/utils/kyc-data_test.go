@@ -10,13 +10,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/cache/keys"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
-	"github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/models/exchange/exchangetest"
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/cache/keys"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/infra/app"
+	"github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/models/exchange/exchangetest"
+	"github.com/cobinhood/mochi/types"
 )
 
 type KYCDataTestSuite struct {

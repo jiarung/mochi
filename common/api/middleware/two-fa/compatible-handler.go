@@ -6,9 +6,9 @@ import (
 	"github.com/cobinhood/gorm"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/types"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/types"
 )
 
 // TwoFARequiredAPI API name which need 2FA

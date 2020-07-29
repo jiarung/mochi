@@ -4,9 +4,9 @@ import (
 	"errors"
 	"sync"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	"github.com/cobinhood/cobinhood-backend/types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/common/logging"
+	"github.com/cobinhood/mochi/types"
 )
 
 // Exported errors.

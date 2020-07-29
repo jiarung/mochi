@@ -6,7 +6,7 @@ import (
 	"hash/crc32"
 	"math/rand"
 
-	"github.com/cobinhood/cobinhood-backend/common/logging"
+	"github.com/cobinhood/mochi/common/logging"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"golang.org/x/oauth2/google"
 	monitoring "google.golang.org/api/monitoring/v3"
 
-	"github.com/cobinhood/cobinhood-backend/common/logging"
+	"github.com/cobinhood/mochi/common/logging"
 )
 
 //CreateMetric will create a Metric in stackdriver,

@@ -8,8 +8,8 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/cobinhood/cobinhood-backend/cache/instances"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	"github.com/cobinhood/mochi/cache/instances"
+	models "github.com/cobinhood/mochi/models/exchange"
 )
 
 func btcToSatoshi(btc decimal.Decimal) decimal.Decimal {

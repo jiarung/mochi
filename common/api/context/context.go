@@ -17,17 +17,17 @@ import (
 	"github.com/gin-gonic/gin/binding"
 	"github.com/satori/go.uuid"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/cache/instances"
-	"github.com/cobinhood/cobinhood-backend/cache/keys"
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	apiutils "github.com/cobinhood/cobinhood-backend/common/api/utils"
-	"github.com/cobinhood/cobinhood-backend/common/config"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	"github.com/cobinhood/cobinhood-backend/infra/api/utils"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/cache/instances"
+	"github.com/cobinhood/mochi/cache/keys"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	apiutils "github.com/cobinhood/mochi/common/api/utils"
+	"github.com/cobinhood/mochi/common/config"
+	"github.com/cobinhood/mochi/common/logging"
+	"github.com/cobinhood/mochi/infra/api/utils"
+	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/types"
 )
 
 var (

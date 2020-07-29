@@ -8,7 +8,7 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/shopspring/decimal"
 
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
+	"github.com/cobinhood/mochi/common/config/misc"
 )
 
 // System environment enum.

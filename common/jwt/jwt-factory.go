@@ -14,9 +14,9 @@ import (
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/satori/go.uuid"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/common/config/secret"
-	"github.com/cobinhood/cobinhood-backend/types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/common/config/secret"
+	"github.com/cobinhood/mochi/types"
 )
 
 type jwtType string

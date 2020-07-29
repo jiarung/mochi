@@ -3,9 +3,9 @@ package file
 import (
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	models "github.com/cobinhood/mochi/models/exchange"
 )
 
 // DownloadCampaignManualReviewFile downloads file.

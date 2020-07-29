@@ -2,7 +2,7 @@ package logging
 
 import (
 	"cloud.google.com/go/logging"
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
+	"github.com/cobinhood/mochi/common/config/misc"
 )
 
 // DefaultThresholdLevel returns the default log level.

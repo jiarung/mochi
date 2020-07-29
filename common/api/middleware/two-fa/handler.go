@@ -7,17 +7,17 @@ import (
 	"github.com/cobinhood/gorm"
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/cobinhood-backend/api-cobx/message-code"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	"github.com/cobinhood/cobinhood-backend/common/api/middleware"
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
-	jwtFactory "github.com/cobinhood/cobinhood-backend/common/jwt"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	"github.com/cobinhood/cobinhood-backend/common/notification"
-	"github.com/cobinhood/cobinhood-backend/database"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/api-cobx/message-code"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	"github.com/cobinhood/mochi/common/api/middleware"
+	"github.com/cobinhood/mochi/common/config/misc"
+	jwtFactory "github.com/cobinhood/mochi/common/jwt"
+	"github.com/cobinhood/mochi/common/logging"
+	"github.com/cobinhood/mochi/common/notification"
+	"github.com/cobinhood/mochi/database"
+	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/types"
 )
 
 var (

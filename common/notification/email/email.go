@@ -9,13 +9,13 @@ import (
 
 	"github.com/cobinhood/gorm"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/cache/keys"
-	"github.com/cobinhood/cobinhood-backend/common/config/misc"
-	jsonBuilder "github.com/cobinhood/cobinhood-backend/common/encode/json"
-	"github.com/cobinhood/cobinhood-backend/jsonrpc"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/cache/keys"
+	"github.com/cobinhood/mochi/common/config/misc"
+	jsonBuilder "github.com/cobinhood/mochi/common/encode/json"
+	"github.com/cobinhood/mochi/jsonrpc"
+	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/cobinhood/mochi/types"
 )
 
 // Config defines config.

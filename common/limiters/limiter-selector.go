@@ -3,7 +3,7 @@ package limiters
 import (
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/cobinhood-backend/common/logging"
+	"github.com/cobinhood/mochi/common/logging"
 	"github.com/cobinhood/gorm"
 )
 

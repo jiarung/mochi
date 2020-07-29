@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cobinhood/cobinhood-backend/cache/cacher"
+	"github.com/cobinhood/mochi/cache/cacher"
 )
 
 // --------------------------------------

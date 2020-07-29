@@ -11,14 +11,14 @@ import (
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/ext"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/common"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apiutils "github.com/cobinhood/cobinhood-backend/common/api/utils"
-	"github.com/cobinhood/cobinhood-backend/common/logging"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/infra/api/middleware/logger"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/common"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apiutils "github.com/cobinhood/mochi/common/api/utils"
+	"github.com/cobinhood/mochi/common/logging"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/infra/api/middleware/logger"
 )
 
 func getFunctionName(i interface{}) string {

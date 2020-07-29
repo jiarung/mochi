@@ -11,14 +11,14 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/common/api/apitest"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/database/exchangedb"
-	"github.com/cobinhood/cobinhood-backend/infra/api/middleware/logger"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/common/api/apitest"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/database/exchangedb"
+	"github.com/cobinhood/mochi/infra/api/middleware/logger"
+	"github.com/cobinhood/mochi/infra/app"
 )
 
 // this is helper middleware since access token API is not ready

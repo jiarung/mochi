@@ -7,8 +7,8 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/cobinhood-backend/common/aes"
-	"github.com/cobinhood/cobinhood-backend/common/config/secret"
+	"github.com/cobinhood/mochi/common/aes"
+	"github.com/cobinhood/mochi/common/config/secret"
 )
 
 var (

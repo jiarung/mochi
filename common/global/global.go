@@ -1,6 +1,6 @@
 package global
 
-import "github.com/cobinhood/cobinhood-backend/types"
+import "github.com/cobinhood/mochi/types"
 
 const (
 	// SystemPhase is phase of system

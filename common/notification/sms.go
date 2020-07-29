@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cobinhood/cobinhood-backend/common/config/secret"
-	"github.com/cobinhood/cobinhood-backend/common/config/thirdparty"
+	"github.com/cobinhood/mochi/common/config/secret"
+	"github.com/cobinhood/mochi/common/config/thirdparty"
 )
 
 type mapWithExist map[string]interface{}

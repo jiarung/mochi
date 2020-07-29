@@ -11,24 +11,24 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/types"
+	"github.com/cobinhood/mochi/types"
 )
 
 // Base makes a local definition instead of import
-// github.com/cobinhood/cobinhood-backend/models to avoid from circle import.
+// github.com/cobinhood/mochi/models to avoid from circle import.
 type Base struct {
 	UpdatedAt time.Time `gorm:"column:updated_at;type:timestamp with time zone" json:"-" sig:"-"`
 	CreatedAt time.Time `gorm:"column:created_at;type:timestamp with time zone" json:"-" sig:"-"`
 }
 
 // SignedModelBase makes a local definition instead of import
-// github.com/cobinhood/cobinhood-backend/models to avoid from circle import.
+// github.com/cobinhood/mochi/models to avoid from circle import.
 type SignedModelBase struct {
 	Signature string `gorm:"column:sig;type:varchar(64)" json:"-" sig:"-"`
 }
 
 // Ledger makes a local definition instead of import
-// github.com/cobinhood/cobinhood-backend/models to avoid from circle import.
+// github.com/cobinhood/mochi/models to avoid from circle import.
 type Ledger struct {
 	Base
 	SignedModelBase

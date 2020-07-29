@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/xeipuuv/gojsonschema"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
 )
 
 type hasT interface {

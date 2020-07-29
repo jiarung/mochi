@@ -14,16 +14,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/cobinhood-backend/apps/exchange/cobx-types"
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/common/aes"
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	"github.com/cobinhood/cobinhood-backend/common/api/middleware"
-	"github.com/cobinhood/cobinhood-backend/database"
-	"github.com/cobinhood/cobinhood-backend/database/exchangedb"
-	"github.com/cobinhood/cobinhood-backend/infra/api/middleware/logger"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
-	"github.com/cobinhood/cobinhood-backend/models/exchange/exchangetest"
+	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/common/aes"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	"github.com/cobinhood/mochi/common/api/middleware"
+	"github.com/cobinhood/mochi/database"
+	"github.com/cobinhood/mochi/database/exchangedb"
+	"github.com/cobinhood/mochi/infra/api/middleware/logger"
+	"github.com/cobinhood/mochi/infra/app"
+	"github.com/cobinhood/mochi/models/exchange/exchangetest"
 )
 
 type testUploadResponse struct {

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	models "github.com/cobinhood/mochi/models/exchange"
 )
 
 const (

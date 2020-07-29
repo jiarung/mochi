@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
 	"github.com/cobinhood/gorm"
 )
 

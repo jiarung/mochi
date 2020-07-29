@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/cobinhood-backend/cache"
-	"github.com/cobinhood/cobinhood-backend/infra/app"
+	"github.com/cobinhood/mochi/cache"
+	"github.com/cobinhood/mochi/infra/app"
 )
 
 // Test suite for System API Module

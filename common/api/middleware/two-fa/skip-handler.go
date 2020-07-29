@@ -1,6 +1,6 @@
 package twofactor
 
-import "github.com/cobinhood/cobinhood-backend/types"
+import "github.com/cobinhood/mochi/types"
 
 var _ TwoFAInformation = (*SkipTwoFAInformation)(nil)
 

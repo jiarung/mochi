@@ -3,9 +3,9 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	apierrors "github.com/cobinhood/cobinhood-backend/common/api/errors"
-	"github.com/cobinhood/cobinhood-backend/infra/api/utils"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	"github.com/cobinhood/mochi/infra/api/utils"
 )
 
 // PrivilegedIPRequired check if the IP of http request is privileged ip.

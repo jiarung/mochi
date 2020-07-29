@@ -6,8 +6,8 @@ import (
 	"github.com/cobinhood/gorm"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/cobinhood-backend/common/api/context"
-	models "github.com/cobinhood/cobinhood-backend/models/exchange"
+	apicontext "github.com/cobinhood/mochi/common/api/context"
+	models "github.com/cobinhood/mochi/models/exchange"
 )
 
 // FirstOrCreateKYCDataOfUser gets the first or creates KYC data for user.
