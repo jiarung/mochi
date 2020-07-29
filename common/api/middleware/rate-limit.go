@@ -3,16 +3,16 @@ package middleware
 import (
 	"strconv"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	"github.com/cobinhood/mochi/common/limiters"
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/common/utils"
-	apiutils "github.com/cobinhood/mochi/infra/api/utils"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	"github.com/jiarung/mochi/common/limiters"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/common/utils"
+	apiutils "github.com/jiarung/mochi/infra/api/utils"
 )
 
 func isLimitReachedAndSetHeader(ctx *apicontext.AppContext,

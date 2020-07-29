@@ -8,14 +8,14 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/common/config/misc"
-	"github.com/cobinhood/mochi/common/utils"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/api/middleware/logger"
-	"github.com/cobinhood/mochi/infra/app"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/common/config/misc"
+	"github.com/jiarung/mochi/common/utils"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/api/middleware/logger"
+	"github.com/jiarung/mochi/infra/app"
 )
 
 type UnderDevelopmentSuite struct {

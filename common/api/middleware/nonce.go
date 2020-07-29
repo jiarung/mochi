@@ -9,9 +9,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	"github.com/cobinhood/mochi/common/logging"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 var (

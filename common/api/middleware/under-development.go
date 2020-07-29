@@ -3,10 +3,10 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/common/utils"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/common/utils"
 )
 
 // UnderDevelopment checks if environment is not on production environment.

@@ -14,16 +14,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/common/aes"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	"github.com/cobinhood/mochi/common/api/middleware"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/api/middleware/logger"
-	"github.com/cobinhood/mochi/infra/app"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/common/aes"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	"github.com/jiarung/mochi/common/api/middleware"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/api/middleware/logger"
+	"github.com/jiarung/mochi/infra/app"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
 )
 
 type testUploadResponse struct {

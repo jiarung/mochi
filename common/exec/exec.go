@@ -4,7 +4,7 @@ import (
 	"errors"
 	"os/exec"
 
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 var (

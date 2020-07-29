@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 const (

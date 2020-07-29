@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cobinhood/mochi/cache/cacher"
+	"github.com/jiarung/mochi/cache/cacher"
 )
 
 // Shared insntances.

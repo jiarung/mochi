@@ -6,7 +6,7 @@ import (
 	"hash/crc32"
 	"math/rand"
 
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 const (

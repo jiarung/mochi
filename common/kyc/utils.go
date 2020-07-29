@@ -3,11 +3,11 @@ package kyc
 import (
 	"fmt"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/satori/go.uuid"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	models "github.com/cobinhood/mochi/models/exchange"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	models "github.com/jiarung/mochi/models/exchange"
 )
 
 // FirstOrCreateKYCDataOfUser gets the first or creates KYC data for user.

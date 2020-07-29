@@ -10,8 +10,8 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"github.com/cobinhood/mochi/common/utils"
-	"github.com/cobinhood/mochi/gcp/kms"
+	"github.com/jiarung/mochi/common/utils"
+	"github.com/jiarung/mochi/gcp/kms"
 )
 
 var (

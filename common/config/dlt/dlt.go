@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cobinhood/mochi/cache/cacher"
+	"github.com/jiarung/mochi/cache/cacher"
 )
 
 // --------------------------------------

@@ -5,18 +5,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/cache/keys"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/infra/app"
-	"github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/cache/keys"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/infra/app"
+	"github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
+	"github.com/jiarung/mochi/types"
 )
 
 type KYCDataTestSuite struct {

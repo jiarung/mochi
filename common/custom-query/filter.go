@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 )
 
 // Filter is a nested map that will be evaluated to `Where` arguments in a SQL query.

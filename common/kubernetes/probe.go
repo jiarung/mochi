@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/cobinhood/mochi/common/config/misc"
-	"github.com/cobinhood/mochi/common/global"
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/config/misc"
+	"github.com/jiarung/mochi/common/global"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 // Response response the JSON response to the k8s probes.

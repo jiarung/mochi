@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/cobinhood/mochi/common/aes"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
+	"github.com/jiarung/mochi/common/aes"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
 )
 
 func Example() {

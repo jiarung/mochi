@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/cache/keys"
-	"github.com/cobinhood/mochi/common/config/misc"
-	jsonBuilder "github.com/cobinhood/mochi/common/encode/json"
-	"github.com/cobinhood/mochi/jsonrpc"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/cache/keys"
+	"github.com/jiarung/mochi/common/config/misc"
+	jsonBuilder "github.com/jiarung/mochi/common/encode/json"
+	"github.com/jiarung/mochi/jsonrpc"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/types"
 )
 
 // Config defines config.

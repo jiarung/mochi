@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"cloud.google.com/go/logging"
-	"github.com/cobinhood/mochi/common/config/misc"
+	"github.com/jiarung/mochi/common/config/misc"
 )
 
 type stackdriverOutput struct {
@@ -36,7 +36,7 @@ func (o *stackdriverOutput) refreshLogger(logname string) {
 	if logname == "" {
 		return
 	}
-	// logName="projects/cobinhood/logs/${logname}" and
+	// logName="projects/jiarung/logs/${logname}" and
 	// resource.type="gce_instance" on StackDriver
 	o.logger = o.client.Logger(logname)
 }

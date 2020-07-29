@@ -12,22 +12,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
 	"github.com/satori/go.uuid"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/cache/instances"
-	"github.com/cobinhood/mochi/cache/keys"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	apiutils "github.com/cobinhood/mochi/common/api/utils"
-	"github.com/cobinhood/mochi/common/config"
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/infra/api/utils"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/cache/instances"
+	"github.com/jiarung/mochi/cache/keys"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	apiutils "github.com/jiarung/mochi/common/api/utils"
+	"github.com/jiarung/mochi/common/config"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/infra/api/utils"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/types"
 )
 
 var (
@@ -273,7 +273,7 @@ func (appCtx *AppContext) GetUserResidence() string {
 // CheckEmployeeIdentity checks if the user is employee.
 func (appCtx *AppContext) CheckEmployeeIdentity() bool {
 	email := appCtx.GetUserEmail()
-	return strings.HasSuffix(email, "cobinhood.com")
+	return strings.HasSuffix(email, "jiarung.com")
 }
 
 // RequestTag returns request tag.

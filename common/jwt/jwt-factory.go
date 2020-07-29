@@ -14,9 +14,9 @@ import (
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/satori/go.uuid"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/common/config/secret"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/common/config/secret"
+	"github.com/jiarung/mochi/types"
 )
 
 type jwtType string
@@ -124,7 +124,7 @@ func (o WithdrawFundsEmailVerificationObj) getClaims(
 		"withdraw_id":         o.WithdrawID,
 		"email_auth_id":       o.EmailAuthID,
 		"to_address":          o.ToAddress,
-		"is_cobinhood_wallet": o.IsCobinhoodWallet,
+		"is_jiarung_wallet": o.IsCobinhoodWallet,
 		"exp":                 time.Now().Add(time.Duration(expireSec) * time.Second).Unix(),
 	}
 	return

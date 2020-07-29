@@ -10,7 +10,7 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/types"
 )
 
 type AppOnesignalTestSuite struct {

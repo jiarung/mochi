@@ -16,8 +16,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/cobinhood/mochi/common/config/secret"
-	"github.com/cobinhood/mochi/common/config/thirdparty"
+	"github.com/jiarung/mochi/common/config/secret"
+	"github.com/jiarung/mochi/common/config/thirdparty"
 )
 
 var (

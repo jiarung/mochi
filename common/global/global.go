@@ -1,6 +1,6 @@
 package global
 
-import "github.com/cobinhood/mochi/types"
+import "github.com/jiarung/mochi/types"
 
 const (
 	// SystemPhase is phase of system

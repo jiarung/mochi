@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/mochi/database/fixtures"
+	"github.com/jiarung/mochi/database/fixtures"
 )
 
 var templateList = map[string]struct{}{

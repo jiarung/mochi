@@ -11,9 +11,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/cobinhood/mochi/cache"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	"github.com/jiarung/mochi/cache"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
 )
 
 const noWritten = -1

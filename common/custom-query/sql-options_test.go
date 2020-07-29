@@ -3,14 +3,14 @@ package customquery
 import (
 	"testing"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/app"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/app"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
 )
 
 type SQLOptionsTestSuite struct {
@@ -40,18 +40,18 @@ func (suite *SQLOptionsTestSuite) SetupTest() {
 
 func (suite *SQLOptionsTestSuite) TestFilterSQLInjection() {
 	hacker := exchangetest.CreateTestingUser(suite.db, 1)[0]
-	err := suite.db.Model(hacker).Update("email", "hacker@cobinhood.com").Error
+	err := suite.db.Model(hacker).Update("email", "hacker@jiarung.com").Error
 	suite.Require().Nil(err)
 
 	qqUser := exchangetest.CreateTestingUser(suite.db, 1)[0]
-	err = suite.db.Model(qqUser).Update("email", "qq@cobinhood.com").Error
+	err = suite.db.Model(qqUser).Update("email", "qq@jiarung.com").Error
 	suite.Require().Nil(err)
 
 	filter := map[string]interface{}{
 		"like": map[string]interface{}{
 			"column": "email\"=email) and password=password limit (select ascii('A'));" +
-				"update \"user\" set email = 'deadQQ@cobinhood.com' where email =" +
-				" 'qq@cobinhood.com';--",
+				"update \"user\" set email = 'deadQQ@jiarung.com' where email =" +
+				" 'qq@jiarung.com';--",
 			"value": "%Postg%",
 		},
 	}
@@ -72,17 +72,17 @@ func (suite *SQLOptionsTestSuite) TestFilterSQLInjection() {
 
 func (suite *SQLOptionsTestSuite) TestOrderSQLInjection() {
 	hacker := exchangetest.CreateTestingUser(suite.db, 1)[0]
-	err := suite.db.Model(hacker).Update("email", "hacker@cobinhood.com").Error
+	err := suite.db.Model(hacker).Update("email", "hacker@jiarung.com").Error
 	suite.Require().Nil(err)
 
 	qqUser := exchangetest.CreateTestingUser(suite.db, 1)[0]
-	err = suite.db.Model(qqUser).Update("email", "qq@cobinhood.com").Error
+	err = suite.db.Model(qqUser).Update("email", "qq@jiarung.com").Error
 	suite.Require().Nil(err)
 
 	o := order{
 		Column: "email\"=email) and password=password limit (select ascii('A'));" +
-			"update \"user\" set email = 'deadQQ@cobinhood.com' where email =" +
-			" 'qq@cobinhood.com';--",
+			"update \"user\" set email = 'deadQQ@jiarung.com' where email =" +
+			" 'qq@jiarung.com';--",
 		Keyword: "asc",
 	}
 	order := Order([]order{o})

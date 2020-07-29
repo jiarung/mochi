@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/infra/app"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/infra/app"
 )
 
 type interfaceTestSuite struct {

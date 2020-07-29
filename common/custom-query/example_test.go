@@ -3,11 +3,11 @@ package customquery_test
 import (
 	"net/http"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apiutils "github.com/cobinhood/mochi/common/api/utils"
-	"github.com/cobinhood/mochi/common/custom-query"
-	"github.com/cobinhood/mochi/database"
-	models "github.com/cobinhood/mochi/models/exchange"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apiutils "github.com/jiarung/mochi/common/api/utils"
+	"github.com/jiarung/mochi/common/custom-query"
+	"github.com/jiarung/mochi/database"
+	models "github.com/jiarung/mochi/models/exchange"
 	"github.com/gin-gonic/gin"
 )
 

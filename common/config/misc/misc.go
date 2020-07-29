@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cobinhood/mochi/cache/cacher"
+	"github.com/jiarung/mochi/cache/cacher"
 )
 
 // --------------------------------------
@@ -1071,43 +1071,43 @@ func SetDomain(v string) {
 // COBINHOOD_SECRET_PATH
 // --------------------------------------
 var (
-	cobinhoodSecretPathStr = os.Getenv("COBINHOOD_SECRET_PATH")
+	jiarungSecretPathStr = os.Getenv("COBINHOOD_SECRET_PATH")
 
-	cobinhoodSecretPathIntCacher = cacher.NewConst(func() interface{} {
-		v, err := strconv.ParseInt(cobinhoodSecretPathStr, 0, 0)
+	jiarungSecretPathIntCacher = cacher.NewConst(func() interface{} {
+		v, err := strconv.ParseInt(jiarungSecretPathStr, 0, 0)
 		if err != nil {
-			panic(fmt.Errorf("failed to parse int for env %s", cobinhoodSecretPathStr))
+			panic(fmt.Errorf("failed to parse int for env %s", jiarungSecretPathStr))
 		}
 		val := int(v)
 		return &val
 	})
-	cobinhoodSecretPathInt64Cacher = cacher.NewConst(func() interface{} {
-		v, err := strconv.ParseInt(cobinhoodSecretPathStr, 0, 64)
+	jiarungSecretPathInt64Cacher = cacher.NewConst(func() interface{} {
+		v, err := strconv.ParseInt(jiarungSecretPathStr, 0, 64)
 		if err != nil {
-			panic(fmt.Errorf("failed to parse int64 for env %s", cobinhoodSecretPathStr))
+			panic(fmt.Errorf("failed to parse int64 for env %s", jiarungSecretPathStr))
 		}
 		val := int64(v)
 		return &val
 	})
-	cobinhoodSecretPathUintCacher = cacher.NewConst(func() interface{} {
-		v, err := strconv.ParseUint(cobinhoodSecretPathStr, 0, 32)
+	jiarungSecretPathUintCacher = cacher.NewConst(func() interface{} {
+		v, err := strconv.ParseUint(jiarungSecretPathStr, 0, 32)
 		if err != nil {
-			panic(fmt.Errorf("failed to parse int for env %s", cobinhoodSecretPathStr))
+			panic(fmt.Errorf("failed to parse int for env %s", jiarungSecretPathStr))
 		}
 		val := uint(v)
 		return &val
 	})
-	cobinhoodSecretPathBoolCacher = cacher.NewConst(func() interface{} {
-		v, err := strconv.ParseBool(cobinhoodSecretPathStr)
+	jiarungSecretPathBoolCacher = cacher.NewConst(func() interface{} {
+		v, err := strconv.ParseBool(jiarungSecretPathStr)
 		if err != nil {
-			panic(fmt.Errorf("failed to parse bool for env %s", cobinhoodSecretPathStr))
+			panic(fmt.Errorf("failed to parse bool for env %s", jiarungSecretPathStr))
 		}
 		return &v
 	})
-	cobinhoodSecretPathMsCacher = cacher.NewConst(func() interface{} {
-		v, err := strconv.ParseInt(cobinhoodSecretPathStr, 0, 64)
+	jiarungSecretPathMsCacher = cacher.NewConst(func() interface{} {
+		v, err := strconv.ParseInt(jiarungSecretPathStr, 0, 64)
 		if err != nil {
-			panic(fmt.Errorf("failed to parse time for env %s", cobinhoodSecretPathStr))
+			panic(fmt.Errorf("failed to parse time for env %s", jiarungSecretPathStr))
 		}
 
 		val := time.Millisecond * time.Duration(v)
@@ -1117,42 +1117,42 @@ var (
 
 // CobinhoodSecretPath returns the cached COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPath() string {
-	return cobinhoodSecretPathStr
+	return jiarungSecretPathStr
 }
 
 // CobinhoodSecretPathInt returns the cached int of COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPathInt() int {
-	return *((cobinhoodSecretPathIntCacher.Get()).(*int))
+	return *((jiarungSecretPathIntCacher.Get()).(*int))
 }
 
 // CobinhoodSecretPathInt64 returns the cached int64 of COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPathInt64() int64 {
-	return *((cobinhoodSecretPathInt64Cacher.Get()).(*int64))
+	return *((jiarungSecretPathInt64Cacher.Get()).(*int64))
 }
 
 // CobinhoodSecretPathUint returns the cached uint of COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPathUint() uint {
-	return *((cobinhoodSecretPathUintCacher.Get()).(*uint))
+	return *((jiarungSecretPathUintCacher.Get()).(*uint))
 }
 
 // CobinhoodSecretPathBool returns the cached bool of COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPathBool() bool {
-	return *((cobinhoodSecretPathBoolCacher.Get()).(*bool))
+	return *((jiarungSecretPathBoolCacher.Get()).(*bool))
 }
 
 // CobinhoodSecretPathMs returns the cached millisecond of COBINHOOD_SECRET_PATH variable.
 func CobinhoodSecretPathMs() time.Duration {
-	return *((cobinhoodSecretPathMsCacher.Get()).(*time.Duration))
+	return *((jiarungSecretPathMsCacher.Get()).(*time.Duration))
 }
 
 // SetCobinhoodSecretPath sets the cached value.
 func SetCobinhoodSecretPath(v string) {
-	cobinhoodSecretPathStr = v
-	cobinhoodSecretPathIntCacher.Clear()
-	cobinhoodSecretPathInt64Cacher.Clear()
-	cobinhoodSecretPathUintCacher.Clear()
-	cobinhoodSecretPathBoolCacher.Clear()
-	cobinhoodSecretPathMsCacher.Clear()
+	jiarungSecretPathStr = v
+	jiarungSecretPathIntCacher.Clear()
+	jiarungSecretPathInt64Cacher.Clear()
+	jiarungSecretPathUintCacher.Clear()
+	jiarungSecretPathBoolCacher.Clear()
+	jiarungSecretPathMsCacher.Clear()
 }
 
 // --------------------------------------

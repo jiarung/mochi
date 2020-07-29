@@ -3,10 +3,10 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apiutils "github.com/cobinhood/mochi/common/api/utils"
-	"github.com/cobinhood/mochi/common/utils"
-	"github.com/cobinhood/mochi/infra/api/middleware/logger"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apiutils "github.com/jiarung/mochi/common/api/utils"
+	"github.com/jiarung/mochi/common/utils"
+	"github.com/jiarung/mochi/infra/api/middleware/logger"
 )
 
 // RecaptchaRequired recaptcha validation required

@@ -7,9 +7,9 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/types"
 )
 
 type AppTestSuite struct {

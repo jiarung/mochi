@@ -10,10 +10,10 @@ import (
 	"github.com/satori/go.uuid"
 	"github.com/shopspring/decimal"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/common/utils"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/common/utils"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/types"
 )
 
 // AppStruct defines struct of app.

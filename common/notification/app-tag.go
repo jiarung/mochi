@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
 )
 
 // AppTag defines config of app notification tag.

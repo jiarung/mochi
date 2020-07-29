@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/mochi/common/exec"
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/exec"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 type mockRunner struct {

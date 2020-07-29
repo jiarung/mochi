@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/app"
-	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/app"
+	models "github.com/jiarung/mochi/models/exchange"
 )
 
 // FilterSuite tests filter

@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/cache/keys"
-	"github.com/cobinhood/mochi/models/exchange"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/cache/keys"
+	"github.com/jiarung/mochi/models/exchange"
 )
 
 // Define cache expiration time.

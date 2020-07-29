@@ -9,22 +9,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/common/api/apitest"
-	"github.com/cobinhood/mochi/common/limiters"
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/api/middleware/logger"
-	"github.com/cobinhood/mochi/infra/api/utils"
-	"github.com/cobinhood/mochi/infra/app"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/common/api/apitest"
+	"github.com/jiarung/mochi/common/limiters"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/api/middleware/logger"
+	"github.com/jiarung/mochi/infra/api/utils"
+	"github.com/jiarung/mochi/infra/app"
 )
 
 const (

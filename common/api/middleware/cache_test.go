@@ -12,17 +12,17 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/apps/exchange/common/api/middlewares"
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/common/api/apitest"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	"github.com/cobinhood/mochi/common/api/middleware"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/api/middleware/logger"
-	"github.com/cobinhood/mochi/infra/app"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/apps/exchange/common/api/middlewares"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/common/api/apitest"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	"github.com/jiarung/mochi/common/api/middleware"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/api/middleware/logger"
+	"github.com/jiarung/mochi/infra/app"
 )
 
 type cacheMiddlewareSuite struct {

@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/common/utils"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/common/utils"
 )
 
 var (

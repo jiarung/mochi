@@ -3,7 +3,7 @@ package logging
 import (
 	"os"
 
-	"github.com/cobinhood/mochi/common/config/misc"
+	"github.com/jiarung/mochi/common/config/misc"
 )
 
 var (

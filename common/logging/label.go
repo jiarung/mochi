@@ -9,7 +9,7 @@ import (
 
 	"github.com/ttacon/chalk"
 
-	"github.com/cobinhood/mochi/common/global"
+	"github.com/jiarung/mochi/common/global"
 )
 
 // LabelMap are Log Labels.

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	"github.com/cobinhood/gorm"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	"github.com/jiarung/gorm"
 )
 
 const maxLimit = 100

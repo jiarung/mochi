@@ -7,22 +7,22 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/cache"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	"github.com/cobinhood/mochi/common/logging"
-	scopeauth "github.com/cobinhood/mochi/common/scope-auth"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/infra/app"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/cache"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	"github.com/jiarung/mochi/common/logging"
+	scopeauth "github.com/jiarung/mochi/common/scope-auth"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/infra/app"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
+	"github.com/jiarung/mochi/types"
 )
 
 type CampaignManualReviewTestSuite struct {

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cobinhood/mochi/constants"
-	"github.com/cobinhood/mochi/database/fixtures"
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/constants"
+	"github.com/jiarung/mochi/database/fixtures"
+	"github.com/jiarung/mochi/types"
 )
 
 const timeFormat = "2006-01-02 15:04:05 UTC-07"

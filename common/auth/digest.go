@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 var (

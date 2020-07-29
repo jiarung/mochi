@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	jsonBuilder "github.com/cobinhood/mochi/common/encode/json"
-	models "github.com/cobinhood/mochi/models/exchange"
+	jsonBuilder "github.com/jiarung/mochi/common/encode/json"
+	models "github.com/jiarung/mochi/models/exchange"
 )
 
 const (

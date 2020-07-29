@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	ginTracer "gopkg.in/DataDog/dd-trace-go.v1/contrib/gin-gonic/gin"
 
-	"github.com/cobinhood/mochi/common"
+	"github.com/jiarung/mochi/common"
 )
 
 // DatadogMiddleware provide datadog logging.

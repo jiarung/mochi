@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/types"
 )
 
 const tmplVar = `\*\|\w+\|\*`

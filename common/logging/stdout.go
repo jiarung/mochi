@@ -10,7 +10,7 @@ import (
 
 	"github.com/ttacon/chalk"
 
-	"github.com/cobinhood/mochi/common/utils"
+	"github.com/jiarung/mochi/common/utils"
 )
 
 var (

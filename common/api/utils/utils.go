@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/mochi/cache"
-	cachehelper "github.com/cobinhood/mochi/cache/helper"
-	"github.com/cobinhood/mochi/cache/keys"
-	"github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/models/exchange/helper"
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/cache"
+	cachehelper "github.com/jiarung/mochi/cache/helper"
+	"github.com/jiarung/mochi/cache/keys"
+	"github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/models/exchange/helper"
+	"github.com/jiarung/mochi/types"
 )
 
 // ReviewMotionRequest is the request of vote action.

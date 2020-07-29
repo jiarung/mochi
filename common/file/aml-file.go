@@ -3,8 +3,8 @@ package file
 import (
 	"errors"
 
-	"github.com/cobinhood/mochi/common/aes"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
+	"github.com/jiarung/mochi/common/aes"
+	apicontext "github.com/jiarung/mochi/common/api/context"
 )
 
 // uploadAMLFileDelegate defines the struct that implements the

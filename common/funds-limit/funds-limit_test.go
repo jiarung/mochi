@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	cdecimal "github.com/cobinhood/mochi/common/decimal"
+	cdecimal "github.com/jiarung/mochi/common/decimal"
 )
 
 type FundsLimitTestSuite struct {

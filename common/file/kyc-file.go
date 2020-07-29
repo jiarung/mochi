@@ -7,12 +7,12 @@ import (
 
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/mochi/common/aes"
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
-	"github.com/cobinhood/mochi/common/api/middleware"
-	"github.com/cobinhood/mochi/common/kyc"
-	models "github.com/cobinhood/mochi/models/exchange"
+	"github.com/jiarung/mochi/common/aes"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
+	"github.com/jiarung/mochi/common/api/middleware"
+	"github.com/jiarung/mochi/common/kyc"
+	models "github.com/jiarung/mochi/models/exchange"
 )
 
 // UploadKYCFileHandler returns the kyc ephemeral file upload handler.

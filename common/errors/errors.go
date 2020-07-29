@@ -7,7 +7,7 @@ import (
 	"runtime/debug"
 	"strconv"
 
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 var logger logging.Logger

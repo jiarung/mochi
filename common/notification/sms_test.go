@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/common/config/misc"
-	"github.com/cobinhood/mochi/common/utils"
+	"github.com/jiarung/mochi/common/config/misc"
+	"github.com/jiarung/mochi/common/utils"
 )
 
 type SMSTestSuite struct {

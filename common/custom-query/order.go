@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 )
 
 // Order is a slice of order that will be evaluated to `ORDER BY` arguments in

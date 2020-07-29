@@ -3,7 +3,7 @@ package aes
 import (
 	"sync"
 
-	"github.com/cobinhood/mochi/common/config/secret"
+	"github.com/jiarung/mochi/common/config/secret"
 )
 
 var (

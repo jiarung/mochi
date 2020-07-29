@@ -4,14 +4,14 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/app"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/app"
 )
 
 type simpleLimiterSelectorTestSuite struct {

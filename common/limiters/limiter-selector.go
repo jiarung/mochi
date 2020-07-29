@@ -3,8 +3,8 @@ package limiters
 import (
 	"github.com/satori/go.uuid"
 
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/gorm"
 )
 
 // SimpleLimiterSelector is just a wrapper for Limiter

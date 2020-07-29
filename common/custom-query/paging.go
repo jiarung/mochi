@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 
-	apicontext "github.com/cobinhood/mochi/common/api/context"
-	apierrors "github.com/cobinhood/mochi/common/api/errors"
+	apicontext "github.com/jiarung/mochi/common/api/context"
+	apierrors "github.com/jiarung/mochi/common/api/errors"
 )
 
 // PageFindParams defines page find utility params.

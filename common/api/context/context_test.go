@@ -6,20 +6,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cobinhood/gorm"
+	"github.com/jiarung/gorm"
 	"github.com/gin-gonic/gin"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/cobinhood/mochi/cache"
-	"github.com/cobinhood/mochi/cache/keys"
-	"github.com/cobinhood/mochi/common/logging"
-	"github.com/cobinhood/mochi/database"
-	"github.com/cobinhood/mochi/database/exchangedb"
-	"github.com/cobinhood/mochi/infra/app"
-	models "github.com/cobinhood/mochi/models/exchange"
-	"github.com/cobinhood/mochi/models/exchange/exchangetest"
-	"github.com/cobinhood/mochi/types"
+	"github.com/jiarung/mochi/cache"
+	"github.com/jiarung/mochi/cache/keys"
+	"github.com/jiarung/mochi/common/logging"
+	"github.com/jiarung/mochi/database"
+	"github.com/jiarung/mochi/database/exchangedb"
+	"github.com/jiarung/mochi/infra/app"
+	models "github.com/jiarung/mochi/models/exchange"
+	"github.com/jiarung/mochi/models/exchange/exchangetest"
+	"github.com/jiarung/mochi/types"
 )
 
 type AppContextTestSuite struct {
@@ -62,7 +62,7 @@ func (s *AppContextTestSuite) TestGetUserEmail() {
 	local := types.LocaleZhTW
 	prizeGer := models.User{
 		ID:                uuid.NewV4(),
-		Email:             "prize@cobinhood.com",
+		Email:             "prize@jiarung.com",
 		Password:          "testpassword",
 		ProfilePicture:    &profilePic,
 		AccountType:       &accountType,
@@ -80,7 +80,7 @@ func (s *AppContextTestSuite) TestGetUserEmail() {
 	appCtx.UserID = &prizeGer.ID
 
 	email := appCtx.GetUserEmail()
-	s.Require().Equal("prize@cobinhood.com", email)
+	s.Require().Equal("prize@jiarung.com", email)
 }
 
 func (s *AppContextTestSuite) TestGetUserNationality() {
@@ -201,7 +201,7 @@ func (s *AppContextTestSuite) TestCheckEmployee() {
 	local := types.LocaleZhTW
 	prizeGer := models.User{
 		ID:                uuid.NewV4(),
-		Email:             "prize@cobinhood.com",
+		Email:             "prize@jiarung.com",
 		Password:          "testpassword",
 		ProfilePicture:    &profilePic,
 		AccountType:       &accountType,

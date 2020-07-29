@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	gce "cloud.google.com/go/compute/metadata"
-	"github.com/cobinhood/mochi/common/logging"
+	"github.com/jiarung/mochi/common/logging"
 )
 
 //ResourceLabel interface of

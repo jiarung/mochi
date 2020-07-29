@@ -3,8 +3,8 @@ package scopeauth
 import (
 	"testing"
 
-	cobxtypes "github.com/cobinhood/mochi/apps/exchange/cobx-types"
-	"github.com/cobinhood/mochi/types"
+	cobxtypes "github.com/jiarung/mochi/apps/exchange/cobx-types"
+	"github.com/jiarung/mochi/types"
 	"github.com/stretchr/testify/suite"
 )
 
