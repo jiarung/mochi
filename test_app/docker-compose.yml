@@ -1,0 +1,13 @@
+version: "3"
+services:
+  go_app:
+    image: go_app
+    ports:
+      - 6060:8080
+  postgresql:
+    image: "postgres:9.6"
+    environment:
+      - POSTGRES_PASSWORD=test_app
+      - POSTGRES_USER=test_app
+    ports:
+      - 15432:15432
